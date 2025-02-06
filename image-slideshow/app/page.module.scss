@@ -1,0 +1,13 @@
+#scrollable {
+    width: 100%;
+
+    #div_style {
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
